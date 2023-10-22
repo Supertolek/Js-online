@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="hljstheme.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.0/styles/default.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.0/highlight.min.js"></script>
+	<title>Js</title>
+</head>
+<body>
+	<div id="tabbar">&nbsp<label for="jsFileOpen" id="menu-file">Open</label><input type="file" name="jsFileOpen" accept=".js" class="fileInput" id="jsFileOpen">&nbsp&nbsp<li id="menu-view">View</li></div>
+	<p></p>
+	<div id="console">
+		<div id="consoleOutput"></div>
+		<div id="command-container">
+			<p id="commandlinestart">&gt; </p>
+			<input id="commandline"></input>
+		</div>
+	</div>
+	<div id="viewsettings">
+		<p class="colorinputprefix">Selection: </p><input type="color" class="colorinput" id="selection" name="selection">&nbsp-&nbsp<input id="selectionAlpha"><br>
+		<p class="colorinputprefix">Background: </p><input type="color" class="colorinput" id="background" name="background"><br>
+		<p class="colorinputprefix">Text: </p><input type="color" class="colorinput" id="text" name="text"><br>
+		<p class="colorinputprefix">Strings: </p><input type="color" class="colorinput" id="strings" name="strings"><br>
+		<p class="colorinputprefix">Numbers: </p><input type="color" class="colorinput" id="numbers" name="numbers"><br>
+		<p class="colorinputprefix">Titles: </p><input type="color" class="colorinput" id="titles" name="titles"><br>
+		<p class="colorinputprefix">Built in: </p><input type="color" class="colorinput" id="builtin" name="builtin"><br>
+		<p class="colorinputprefix">Keywords: </p><input type="color" class="colorinput" id="keywords" name="keywords"><br>
+		<p class="colorinputprefix">Functions: </p><input type="color" class="colorinput" id="functions" name="functions"><br>
+		<p class="colorinputprefix">Parameters: </p><input type="color" class="colorinput" id="parameters" name="parameters"><br>
+		<p class="colorinputprefix">Comments: </p><input type="color" class="colorinput" id="comments" name="comments"><br>
+	</div>
+</body>
+</html>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="colorsPickers.js"></script>
+<script type="text/javascript" src="menu.js"></script>

@@ -1,0 +1,47 @@
+code.hljs {
+	/* Position properties */
+	padding: 0px;
+	/* Display properties */
+	background-color: black;
+}
+
+.colorinput, .colorinputprefix {
+	display: inline;
+}
+
+.hljs {
+  color: var(--text);
+}
+
+.hljs-string {
+  color: var(--string);
+}
+
+.hljs-number {
+  color: var(--number) !important;
+}
+
+.hljs-title {
+  color: var(--title) !important;
+}
+
+.hljs-built_in {
+  color: var(--built_in) !important;
+}
+
+.hljs-keyword {
+  color: var(--keyword) !important;
+}
+
+.hljs-function > .hljs-keyword {
+  color: var(--function) !important;
+  font-style: italic;
+}
+
+.hljs-params {
+  color: var(--params);
+}
+
+.hljs-comment {
+  color: var(--comment);
+}

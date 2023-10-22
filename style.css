@@ -1,0 +1,99 @@
+html {
+	height: 100vh;
+}
+body {
+	/* Position properties */
+	width: 100vw;
+	height: 100vh;
+	margin: 0px;
+	/* Display properties */
+	background-color: black;
+	white-space: nowrap;
+	/* Text properties */
+	font-family: cascadia code;
+	color: green;
+}
+
+div#viewsettings {
+	display: none;
+}
+
+code {
+	/* Text properties */
+	font-family: cascadia code;
+	font-size: 1em;
+}
+
+p#commandlinestart {
+	/* Position properties */
+	display: inline;
+	/* Disable selection */
+	user-select: none;
+}
+
+input#commandline {
+	/* Position properties */
+	display: inline;
+	padding: 0px;
+	/* Display properties */
+	background: none;
+	border: none;
+	outline: none;
+	/* Text properties */
+	font-family: cascadia code;
+	font-size: 1em;
+	color: green;
+}
+
+input.fileInput {
+	display: none;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	display: inline-block;
+	border: 1px solid white;
+	padding: 0px;
+	font-size: 1.3em;
+	width: 1ch;
+	height: 1ch;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+input#selectionAlpha {
+	/* Display properties */
+	background: none;
+	border: none;
+	outline: none;
+	/* Text properties */
+	font-family: cascadia code;
+	font-size: 1em;
+	color: green;
+}
+
+/* Tabbar */
+div#tabbar {
+	/* Position properties */
+	display: inline;
+	padding: 0px;
+	/* Disable selection */
+	user-select: none;
+}
+
+label, li {
+	/* Position properties */
+	display: inline;
+	/* Display properties */
+	cursor: pointer;
+	/* List properties */
+	list-style-type: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
